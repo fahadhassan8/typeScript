@@ -43,4 +43,12 @@ console.log("My Favourite Number is ".concat(favNum));
 var program = 'calculator';
 var date = new Date();
 var description = ("you can calculate");
-console.log("".concat(program, "\n ").concat(date, "\n ").concat(description));
+console.log("".concat(program, "\n").concat(date, "\n").concat(description));
+// Question 11
+var nameArr = ["Adeel", "Uzair", "Imad", "Adnan", "Ahmed"];
+console.log(nameArr);
+console.log("".concat(nameArr[0], "\n").concat(nameArr[1], "\n").concat(nameArr[2], "\n").concat(nameArr[3], "\n").concat(nameArr[4]));
+// Question 12
+var nameArr = ["Adeel", "Uzair", "Imad", "Adnan", "Ahmed"];
+console.log(nameArr);
+console.log("Welcome ".concat(nameArr[0], "\nWelcome ").concat(nameArr[1], "\nWelcome ").concat(nameArr[2], "\nWelcome ").concat(nameArr[3], "\nWelcome ").concat(nameArr[4]));

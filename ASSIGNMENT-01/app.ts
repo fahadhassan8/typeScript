@@ -71,3 +71,24 @@ var description = ("you can calculate");
 console.log(`${program}
 ${date}
 ${description}`);
+
+// Question 11
+
+var nameArr = ["Adeel","Uzair","Imad","Adnan","Ahmed"];
+console.log(nameArr);
+console.log(`${nameArr[0]}
+${nameArr[1]}
+${nameArr[2]}
+${nameArr[3]}
+${nameArr[4]}`);
+
+
+// Question 12
+
+var nameArr = ["Adeel","Uzair","Imad","Adnan","Ahmed"];
+console.log(nameArr);
+console.log(`Welcome ${nameArr[0]}
+Welcome ${nameArr[1]}
+Welcome ${nameArr[2]}
+Welcome ${nameArr[3]}
+Welcome ${nameArr[4]}`);
