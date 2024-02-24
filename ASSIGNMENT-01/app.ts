@@ -38,22 +38,30 @@ console.log(nameStripped);
 
 // Question 07 & 08
 
-//  Subtraction 16 - 8 = 8
+console.log('Subtraction 16 - 8 = 8')
 
 var sub = 16 - 8;
 console.log(sub);
 
-//  Addition 4 + 4 = 8
+console.log('Addition 4 + 4 = 8')
 
 var add = 4 + 4;
 console.log(console.log(add));
 
-//  Multiplication 4 x 2 = 8
+console.log('Multiplication 4 x 2 = 8')
 
 var mul = 4 * 2;
 console.log(console.log(mul));
 
-//  Division 16 / 2 = 8
+console.log('Division 16 / 2 = 8')
 
 var div = 16 / 2;
 console.log(console.log(div));
+
+// Question 09
+
+var favNum = 8;
+console.log(`My Favourite Number is ${favNum}`);
+
+// Question 10
+
