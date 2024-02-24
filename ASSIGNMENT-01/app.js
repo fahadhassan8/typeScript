@@ -135,6 +135,7 @@ for (var i = 0; i < animals.length; i++) {
     console.log("".concat(i + 1, ". ").concat(animals[i]));
 }
 //B
+console.log("\tList of Countries");
 var countries = [
     "Pakistan",
     "United States",
@@ -152,6 +153,7 @@ for (var i = 0; i < countries.length; i++) {
 }
 ;
 // C
+console.log("\tList of Mountains");
 var mountains = [
     "Mount Everest",
     "K2",

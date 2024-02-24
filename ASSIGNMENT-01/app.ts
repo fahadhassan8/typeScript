@@ -210,6 +210,7 @@ for(let i = 0; i < animals.length; i++){
     console.log(`${i + 1}. ${animals[i]}`);
 }
 //B
+console.log("\tList of Countries");
 let countries = [
     "Pakistan",
     "United States",
@@ -226,6 +227,7 @@ for(let i = 0; i < countries.length; i++){
     console.log(`${i + 1}. ${countries[i]}`);
 };
 // C
+console.log("\tList of Mountains")
 let mountains = [
     "Mount Everest",
     "K2",
