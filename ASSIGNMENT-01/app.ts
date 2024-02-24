@@ -65,3 +65,9 @@ console.log(`My Favourite Number is ${favNum}`);
 
 // Question 10
 
+var program = 'calculator';
+var date = new Date()
+var description = ("you can calculate");
+console.log(`${program}
+${date}
+${description}`);
