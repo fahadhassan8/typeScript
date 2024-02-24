@@ -83,6 +83,16 @@ ${nameArr[3]}
 ${nameArr[4]}`);
 
 
+// Question 12
+
+var nameArr = ["Adeel","Uzair","Imad","Adnan","Ahmed"];
+console.log(nameArr);
+console.log(`Welcome ${nameArr[0]}
+Welcome ${nameArr[1]}
+Welcome ${nameArr[2]}
+Welcome ${nameArr[3]}
+Welcome ${nameArr[4]}`);
+
 // Question 13
 
 var myOwnArr = ["Bullet Heavy Bike","BRV","Helicopter","Aeroplane","Horse"];
@@ -93,3 +103,21 @@ I want to buy ${myOwnArr[2]} and want to see world from top.
 I also want to buy${myOwnArr[3]}.
 I want to buy a ${myOwnArr[4]}.`);
 
+// Question 14
+
+var guestList = ["Sir Ghous","Uzair","Adnan"];
+console.log(`Dear ${guestList[0]} Please for dinner at my home by 9pm
+${guestList[1]} come to my home at night we will discuss on it also will have dinner
+${guestList[2]} why not sure come for dinner tonight at my place`);
+
+// Question 15
+
+var guestList = ["Sir Ghous","Uzair","Adnan","Imad"];
+console.log(`Dear ${guestList[0]} Please for dinner at my home by 9pm.
+${guestList[1]} come to my home at night we will discuss on it also will have dinner.
+${guestList[2]} why not sure come for dinner tonight at my place.
+${guestList[1]} said i won't come because i have a plan for somewhere else.
+So i should invite Imad for dinner.
+Dear ${guestList[3]} could you please come tonight because we have u reunite plan also having dinner`);
+
+// Question 16

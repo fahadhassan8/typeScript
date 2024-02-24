@@ -48,7 +48,7 @@ console.log("".concat(program, "\n").concat(date, "\n").concat(description));
 var nameArr = ["Adeel", "Uzair", "Imad", "Adnan", "Ahmed"];
 console.log(nameArr);
 console.log("".concat(nameArr[0], "\n").concat(nameArr[1], "\n").concat(nameArr[2], "\n").concat(nameArr[3], "\n").concat(nameArr[4]));
-// Question 12
-var nameArr = ["Adeel", "Uzair", "Imad", "Adnan", "Ahmed"];
-console.log(nameArr);
-console.log("Welcome ".concat(nameArr[0], "\nWelcome ").concat(nameArr[1], "\nWelcome ").concat(nameArr[2], "\nWelcome ").concat(nameArr[3], "\nWelcome ").concat(nameArr[4]));
+// Question 13
+var myOwnArr = ["Bullet Heavy Bike", "BRV", "Helicopter", "Aeroplane", "Horse"];
+console.log(myOwnArr);
+console.log("I want to buy ".concat(myOwnArr[0], " my all time favourite.\nI want to buy and drive ").concat(myOwnArr[1], ".\nI want to buy ").concat(myOwnArr[2], " and want to see world from top.\nI also want to buy").concat(myOwnArr[3], ".\nI want to buy a ").concat(myOwnArr[4], "."));
