@@ -83,12 +83,13 @@ ${nameArr[3]}
 ${nameArr[4]}`);
 
 
-// Question 12
+// Question 13
 
-var nameArr = ["Adeel","Uzair","Imad","Adnan","Ahmed"];
-console.log(nameArr);
-console.log(`Welcome ${nameArr[0]}
-Welcome ${nameArr[1]}
-Welcome ${nameArr[2]}
-Welcome ${nameArr[3]}
-Welcome ${nameArr[4]}`);
+var myOwnArr = ["Bullet Heavy Bike","BRV","Helicopter","Aeroplane","Horse"];
+console.log(myOwnArr);
+console.log(`I want to buy ${myOwnArr[0]} my all time favourite.
+I want to buy and drive ${myOwnArr[1]}.
+I want to buy ${myOwnArr[2]} and want to see world from top.
+I also want to buy${myOwnArr[3]}.
+I want to buy a ${myOwnArr[4]}.`);
+
