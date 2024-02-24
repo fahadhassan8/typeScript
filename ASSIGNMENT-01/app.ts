@@ -155,3 +155,31 @@ ${guestList[1]} come to my home at night we will discuss on it also will have di
 `);
 
 // Question 18
+
+var placeToVisit = ["Saudia Arabia","United Kingdom","Spain","Turkey","America"];
+
+console.log("/nOriginal Order");
+console.log(placeToVisit)
+
+var placeToVisit = ["Saudia Arabia","United Kingdom","Spain","Turkey","America"];
+
+console.log("\tOriginal Order");
+console.log(placeToVisit);
+
+console.log("\tAlphabetical Order");
+console.log([...placeToVisit].sort());
+
+console.log("\t Original Order (unchanged)");
+console.log(placeToVisit);
+
+console.log('\t Reverse Order');
+console.log([...placeToVisit].reverse());
+
+console.log("\tOriginal Order");
+console.log(placeToVisit);
+
+console.log("\tAlphabetical Order");
+console.log([...placeToVisit].sort());
+console.log([...placeToVisit].reverse());
+
+// Question 19

@@ -82,3 +82,5 @@ console.log(guestList);
 console.log("".concat(guestList, " Dinner program cancel for all of you instead of Sir Ghous and Ehtisham"));
 var removeLast = guestList.splice(2, 5);
 console.log("Dear ".concat(guestList[0], " Please for dinner at my home by 9pm you are still invited.\n").concat(guestList[1], " come to my home at night we will discuss on it also will have dinner you are still invited.\n"));
+
+
