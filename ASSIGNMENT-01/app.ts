@@ -158,11 +158,6 @@ ${guestList[1]} come to my home at night we will discuss on it also will have di
 
 var placeToVisit = ["Saudia Arabia","United Kingdom","Spain","Turkey","America"];
 
-console.log("/nOriginal Order");
-console.log(placeToVisit)
-
-var placeToVisit = ["Saudia Arabia","United Kingdom","Spain","Turkey","America"];
-
 console.log("\tOriginal Order");
 console.log(placeToVisit);
 
@@ -183,3 +178,66 @@ console.log([...placeToVisit].sort());
 console.log([...placeToVisit].reverse());
 
 // Question 19
+
+var guestList = ["Sir Ghous","Uzair","Adnan","Imad"];
+console.log(guestList)
+var addGuest1 = guestList.unshift("Ehtisham");
+console.log(guestList);
+var guestAddInMid = guestList.splice(2,0,"owais");
+console.log(guestList);
+console.log(`${guestList} Dinner program cancel for all of you instead of Sir Ghous and Ehtisham`);
+var removeLast = guestList.splice(2,5);
+console.log(`Dear ${guestList[0]} Please for dinner at my home by 9pm you are still invited.
+${guestList[1]} come to my home at night we will discuss on it also will have dinner you are still invited.
+Invited just two guests`);
+
+// Question 20
+// A
+let animals = [
+    "Lion",
+    "Elephant",
+    "Tiger",
+    "Giraffe",
+    "Panda",
+    "Kangaroo",
+    "Zebra",
+    "Dolphin",
+    "Wolf",
+    "Bear"
+];
+console.log("\tList of Animals")
+for(let i = 0; i < animals.length; i++){
+    console.log(`${i + 1}. ${animals[i]}`);
+}
+//B
+let countries = [
+    "Pakistan",
+    "United States",
+    "China",
+    "Brazil",
+    "Russia",
+    "Indonesia",
+    "India",
+    "Nigeria",
+    "Bangladesh",
+    "Mexico"
+];
+for(let i = 0; i < countries.length; i++){
+    console.log(`${i + 1}. ${countries[i]}`);
+};
+// C
+let mountains = [
+    "Mount Everest",
+    "K2",
+    "Kangchenjunga",
+    "Lhotse",
+    "Makalu",
+    "Cho Oyu",
+    "Dhaulagiri",
+    "Manaslu",
+    "Nanga Parbat",
+    "Annapurna"
+];
+for(let i = 0; i < mountains.length; i++){
+    console.log(`${i + 1}. ${mountains[i]}`);
+;}

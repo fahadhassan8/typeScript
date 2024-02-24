@@ -1,4 +1,13 @@
 // 45 Questions
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
 // Question 01
 // console.log("Node.js, TypeScript, VS Code -- have been installed");
 // Question 02
@@ -82,5 +91,80 @@ console.log(guestList);
 console.log("".concat(guestList, " Dinner program cancel for all of you instead of Sir Ghous and Ehtisham"));
 var removeLast = guestList.splice(2, 5);
 console.log("Dear ".concat(guestList[0], " Please for dinner at my home by 9pm you are still invited.\n").concat(guestList[1], " come to my home at night we will discuss on it also will have dinner you are still invited.\n"));
-
-
+// Question 18
+var placeToVisit = ["Saudia Arabia", "United Kingdom", "Spain", "Turkey", "America"];
+console.log("\tOriginal Order");
+console.log(placeToVisit);
+console.log("\tAlphabetical Order");
+console.log(__spreadArray([], placeToVisit, true).sort());
+console.log("\t Original Order (unchanged)");
+console.log(placeToVisit);
+console.log('\t Reverse Order');
+console.log(__spreadArray([], placeToVisit, true).reverse());
+console.log("\tOriginal Order");
+console.log(placeToVisit);
+console.log("\tAlphabetical Order");
+console.log(__spreadArray([], placeToVisit, true).sort());
+console.log(__spreadArray([], placeToVisit, true).reverse());
+// Question 19
+var guestList = ["Sir Ghous", "Uzair", "Adnan", "Imad"];
+console.log(guestList);
+var addGuest1 = guestList.unshift("Ehtisham");
+console.log(guestList);
+var guestAddInMid = guestList.splice(2, 0, "owais");
+console.log(guestList);
+console.log("".concat(guestList, " Dinner program cancel for all of you instead of Sir Ghous and Ehtisham"));
+var removeLast = guestList.splice(2, 5);
+console.log("Dear ".concat(guestList[0], " Please for dinner at my home by 9pm you are still invited.\n").concat(guestList[1], " come to my home at night we will discuss on it also will have dinner you are still invited.\nInvited just two guests"));
+// Question 20
+// A
+var animals = [
+    "Lion",
+    "Elephant",
+    "Tiger",
+    "Giraffe",
+    "Panda",
+    "Kangaroo",
+    "Zebra",
+    "Dolphin",
+    "Wolf",
+    "Bear"
+];
+console.log("\tList of Animals");
+for (var i = 0; i < animals.length; i++) {
+    console.log("".concat(i + 1, ". ").concat(animals[i]));
+}
+//B
+var countries = [
+    "Pakistan",
+    "United States",
+    "China",
+    "Brazil",
+    "Russia",
+    "Indonesia",
+    "India",
+    "Nigeria",
+    "Bangladesh",
+    "Mexico"
+];
+for (var i = 0; i < countries.length; i++) {
+    console.log("".concat(i + 1, ". ").concat(countries[i]));
+}
+;
+// C
+var mountains = [
+    "Mount Everest",
+    "K2",
+    "Kangchenjunga",
+    "Lhotse",
+    "Makalu",
+    "Cho Oyu",
+    "Dhaulagiri",
+    "Manaslu",
+    "Nanga Parbat",
+    "Annapurna"
+];
+for (var i = 0; i < mountains.length; i++) {
+    console.log("".concat(i + 1, ". ").concat(mountains[i]));
+    ;
+}
