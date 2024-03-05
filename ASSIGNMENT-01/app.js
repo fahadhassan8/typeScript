@@ -189,3 +189,30 @@ var arrList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(arrList[12]); //# IndexError: list index out of range
 var arrList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(arrList[4]); //# it will not show undefined
+// Question 23
+console.log('\t Five Statements');
+// Test 1
+var car = 'subaru';
+console.log("Is car == 'subaru'? I predict True.");
+console.log(car == 'subaru');
+// Test 2
+console.log("Is car != 'subaru'? I predict False");
+console.log(car != 'subaru');
+// Test 3
+console.log("Is car !== 'Honda'? I predict Ture");
+console.log(car !== 'Honda');
+// Test 4
+console.log("Is car.length < 'subaru'? I predict False");
+console.log(car.length < 6);
+// Test 5
+console.log("Is car.length >= '6'? I predict True");
+console.log(car.length >= 6);
+// Test 5
+console.log("Is car.startsWith('su')? I predict True");
+console.log(car.startsWith('su'));
+// Test 06
+console.log("Is car.endWith('ru')? I predict True");
+console.log(car.endsWith('ru'));
+// Test 07
+console.log("Is car.includes('ba')? I predict True");
+console.log(car.includes('ba'));
