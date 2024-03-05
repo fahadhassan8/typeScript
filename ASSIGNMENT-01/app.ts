@@ -242,4 +242,31 @@ let mountains = [
 ];
 for(let i = 0; i < mountains.length; i++){
     console.log(`${i + 1}. ${mountains[i]}`);
-;}
+}
+// Question 21
+
+var country = {
+    name1: "Mount Everest",
+    name2: "K2",
+    name3: "Kangchenjunga",
+    name4: "Lhotse",
+    name5: "Makalu",
+    name6: "Cho Oyu",
+    name7: "Dhaulagiri",
+    name8: "Manaslu",
+    name9: "Nanga Parbat",
+    name10:"Annapurna"
+}
+console.log(
+    ` Contries Name:
+        Country: ${country.name1}
+        Country: ${country.name2}
+        Country: ${country.name3}
+        Country: ${country.name4}
+        Country: ${country.name5}
+        Country: ${country.name6}
+        Country: ${country.name7}
+        Country: ${country.name8}
+        Country: ${country.name9}
+        Country: ${country.name10}}
+`)

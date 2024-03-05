@@ -168,5 +168,18 @@ var mountains = [
 ];
 for (var i = 0; i < mountains.length; i++) {
     console.log("".concat(i + 1, ". ").concat(mountains[i]));
-    ;
 }
+// Question 21
+var country = {
+    name1: "Mount Everest",
+    name2: "K2",
+    name3: "Kangchenjunga",
+    name4: "Lhotse",
+    name5: "Makalu",
+    name6: "Cho Oyu",
+    name7: "Dhaulagiri",
+    name8: "Manaslu",
+    name9: "Nanga Parbat",
+    name10: "Annapurna"
+};
+console.log(" Contries Name\n        Country: ".concat(country.name1, "\n        Country: ").concat(country.name2, "\n        Country: ").concat(country.name3, "\n        Country: ").concat(country.name4, "\n        Country: ").concat(country.name5, "\n        Country: ").concat(country.name6, "\n        Country: ").concat(country.name7, "\n        Country: ").concat(country.name8, "\n        Country: ").concat(country.name9, "\n        Country: ").concat(country.name10, "}\n"));
