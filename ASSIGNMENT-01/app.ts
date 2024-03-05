@@ -330,3 +330,5 @@ console.log(car.endsWith('ru'));
 console.log("Is car.includes('ba')? I predict True");
 
 console.log(car.includes('ba'));
+
+// Question 24
