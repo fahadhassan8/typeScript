@@ -182,4 +182,10 @@ var country = {
     name9: "Nanga Parbat",
     name10: "Annapurna"
 };
-console.log(" Contries Name\n        Country: ".concat(country.name1, "\n        Country: ").concat(country.name2, "\n        Country: ").concat(country.name3, "\n        Country: ").concat(country.name4, "\n        Country: ").concat(country.name5, "\n        Country: ").concat(country.name6, "\n        Country: ").concat(country.name7, "\n        Country: ").concat(country.name8, "\n        Country: ").concat(country.name9, "\n        Country: ").concat(country.name10, "}\n"));
+console.log(//object print
+" Contries Name:\n        Country: ".concat(country.name1, "\n        Country: ").concat(country.name2, "\n        Country: ").concat(country.name3, "\n        Country: ").concat(country.name4, "\n        Country: ").concat(country.name5, "\n        Country: ").concat(country.name6, "\n        Country: ").concat(country.name7, "\n        Country: ").concat(country.name8, "\n        Country: ").concat(country.name9, "\n        Country: ").concat(country.name10, "}\n"));
+// Question 22
+var arrList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(arrList[12]); //# IndexError: list index out of range
+var arrList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(arrList[4]); //# it will not show undefined

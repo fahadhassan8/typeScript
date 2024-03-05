@@ -257,7 +257,7 @@ var country = {
     name9: "Nanga Parbat",
     name10:"Annapurna"
 }
-console.log(
+console.log( //object print
     ` Contries Name:
         Country: ${country.name1}
         Country: ${country.name2}
@@ -270,3 +270,12 @@ console.log(
         Country: ${country.name9}
         Country: ${country.name10}}
 `)
+// Question 22
+
+var arrList =[1,2,3,4,5,6,7,8,9,10]
+console.log(arrList[12]) //# IndexError: list index out of range
+
+var arrList =[1,2,3,4,5,6,7,8,9,10]
+console.log(arrList[4]) //# it will not show undefined
+
+// Question 23
