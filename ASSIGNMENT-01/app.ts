@@ -331,4 +331,26 @@ console.log("Is car.includes('ba')? I predict True");
 
 console.log(car.includes('ba'));
 
-// Question 24
+// Question 25
+
+var alien_color = ["yellow","green","red"];
+
+if(alien_color[1] === "green"){
+    console.log("The player just earned 5 points.")
+}
+
+if(alien_color[1] === "red"){ // no output
+    console.log("The player just earned 5 points.")
+}
+// Question 26
+
+var alienColor = "green";
+
+if(alienColor = "green"){
+    console.log("Congratulations! The player just earned 5 points for shooting the alien.")
+}else{
+    console.log("Congratulations! The player just earned 10 points.")
+}
+
+// Question 27
+
