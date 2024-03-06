@@ -190,7 +190,7 @@ console.log(arrList[12]); //# IndexError: list index out of range
 var arrList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(arrList[4]); //# it will not show undefined
 // Question 23
-console.log('\t Five Statements');
+console.log('\t Seven Statements');
 // Test 1
 var car = 'subaru';
 console.log("Is car == 'subaru'? I predict True.");
@@ -216,3 +216,4 @@ console.log(car.endsWith('ru'));
 // Test 07
 console.log("Is car.includes('ba')? I predict True");
 console.log(car.includes('ba'));
+// Question 24
