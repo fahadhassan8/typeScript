@@ -354,3 +354,57 @@ if(alienColor = "green"){
 
 // Question 27
 
+var alien_color = ["yellow","green","red"];
+
+if(alien_color[1] === "green"){
+    console.log("The player just earned 5 points.")
+}
+if(alien_color[0] === "yellow"){
+    console.log("The player just earned 10 points.")
+}
+if(alien_color[2] === "red"){
+    console.log("The player just earned 15 points.")
+}
+
+// Question 28
+
+var age = 30;
+
+if (age < 2) {
+    console.log("The person is a baby.");
+} else if (age >= 2 && age < 4) {
+    console.log("The person is a toddler.");
+} else if (age >= 4 && age < 13) {
+    console.log("The person is a kid.");
+} else if (age >= 13 && age < 20) {
+    console.log("The person is a teenager.");
+} else if (age >= 20 && age < 65) {
+    console.log("The person is an adult.");
+} else {
+    console.log("The person is an elder.");
+}
+
+// Question 29
+
+var favourite_fruits = ["Banana","Mango","apple","Orange","Strawberry"];
+
+if(favourite_fruits[0] === "Banana"){
+    console.log("Banana Is My favourite fruit");
+}
+else if(favourite_fruits[1] === "Mango"){
+    console.log("Mango Is My most favourite fruit");
+}
+else if(favourite_fruits[2] === "apple"){
+    console.log("I like this");
+}
+else if(favourite_fruits[3] === "Orange"){
+    console.log("I like this");
+}
+else if(favourite_fruits[4] === "Strawberry"){
+    console.log("I like this");
+}
+else{
+    console.log("not in list")
+}
+
+// Question 30

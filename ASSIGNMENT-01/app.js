@@ -224,11 +224,42 @@ if (alien_color[1] === "green") {
 if (alien_color[1] === "red") { // no output
     console.log("The player just earned 5 points.");
 }
-// Question 25
+// Question 26
 var alienColor = "green";
 if (alienColor = "green") {
     console.log("Congratulations! The player just earned 5 points for shooting the alien.");
 }
 else {
     console.log("Congratulations! The player just earned 10 points.");
+}
+// Question 27
+var alien_color = ["yellow", "green", "red"];
+if (alien_color[1] === "green") {
+    console.log("The player just earned 5 points.");
+}
+if (alien_color[0] === "yellow") {
+    console.log("The player just earned 10 points.");
+}
+if (alien_color[2] === "red") {
+    console.log("The player just earned 15 points.");
+}
+// Question 28
+var age = 30;
+if (age < 2) {
+    console.log("The person is a baby.");
+}
+else if (age >= 2 && age < 4) {
+    console.log("The person is a toddler.");
+}
+else if (age >= 4 && age < 13) {
+    console.log("The person is a kid.");
+}
+else if (age >= 13 && age < 20) {
+    console.log("The person is a teenager.");
+}
+else if (age >= 20 && age < 65) {
+    console.log("The person is an adult.");
+}
+else {
+    console.log("The person is an elder.");
 }
