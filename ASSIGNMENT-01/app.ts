@@ -387,24 +387,23 @@ if (age < 2) {
 // Question 29
 
 var favourite_fruits = ["Banana","Mango","apple","Orange","Strawberry"];
-
-if(favourite_fruits[0] === "Banana"){
-    console.log("Banana Is My favourite fruit");
-}
-else if(favourite_fruits[1] === "Mango"){
-    console.log("Mango Is My most favourite fruit");
-}
-else if(favourite_fruits[2] === "apple"){
-    console.log("I like this");
-}
-else if(favourite_fruits[3] === "Orange"){
-    console.log("I like this");
-}
-else if(favourite_fruits[4] === "Strawberry"){
-    console.log("I like this");
-}
-else{
-    console.log("not in list")
+for(var i = 0; i < favourite_fruits.length; i++){
+    if(favourite_fruits[i] === "Banana"){
+        console.log("Banana Is My favourite fruit");
+    }
+    else{
+        console.log(`I just love to eat ${favourite_fruits[i]}.`)
+    }
 }
 
 // Question 30
+
+var userName = ["admin","fahad","zohaib","adeel","owais"];
+
+for(var i = 0; i < userName.length; i++){
+    if(userName[i] === "admin"){
+        console.log("Hello admin, would you like to see a status report?")
+    }else{
+        console.log(`Hello ${userName[i]}, thank you for logging in again.`)
+    }
+}

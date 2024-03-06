@@ -131,8 +131,8 @@ var animals = [
     "Bear"
 ];
 console.log("\tList of Animals");
-for (var i = 0; i < animals.length; i++) {
-    console.log("".concat(i + 1, ". ").concat(animals[i]));
+for (var i_1 = 0; i_1 < animals.length; i_1++) {
+    console.log("".concat(i_1 + 1, ". ").concat(animals[i_1]));
 }
 //B
 console.log("\tList of Countries");
@@ -148,8 +148,8 @@ var countries = [
     "Bangladesh",
     "Mexico"
 ];
-for (var i = 0; i < countries.length; i++) {
-    console.log("".concat(i + 1, ". ").concat(countries[i]));
+for (var i_2 = 0; i_2 < countries.length; i_2++) {
+    console.log("".concat(i_2 + 1, ". ").concat(countries[i_2]));
 }
 ;
 // C
@@ -166,8 +166,8 @@ var mountains = [
     "Nanga Parbat",
     "Annapurna"
 ];
-for (var i = 0; i < mountains.length; i++) {
-    console.log("".concat(i + 1, ". ").concat(mountains[i]));
+for (var i_3 = 0; i_3 < mountains.length; i_3++) {
+    console.log("".concat(i_3 + 1, ". ").concat(mountains[i_3]));
 }
 // Question 21
 var country = {
@@ -262,4 +262,24 @@ else if (age >= 20 && age < 65) {
 }
 else {
     console.log("The person is an elder.");
+}
+// Question 29
+var favourite_fruits = ["Banana", "Mango", "apple", "Orange", "Strawberry"];
+for (var i = 0; i < favourite_fruits.length; i++) {
+    if (favourite_fruits[i] === "Banana") {
+        console.log("Banana Is My favourite fruit");
+    }
+    else {
+        console.log("I just love to eat ".concat(favourite_fruits[i], "."));
+    }
+}
+// Question 30
+var userName = ["admin", "fahad", "zohaib", "adeel", "owais"];
+for (var i = 0; i < userName.length; i++) {
+    if (userName[i] === "admin") {
+        console.log("Hello admin, would you like to see a status report?");
+    }
+    else {
+        console.log("Hello ".concat(userName[i], ", thank you for logging in again."));
+    }
 }
