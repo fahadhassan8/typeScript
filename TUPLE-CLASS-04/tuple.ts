@@ -15,3 +15,4 @@ let tupArr:
 ]
 tupArr.push({school:"SMIT"})
 console.log(tupArr);
+//to be continued 
